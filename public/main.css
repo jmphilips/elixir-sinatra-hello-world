@@ -1,0 +1,40 @@
+body {
+    font-family: 'Lato';
+    margin-top: 4em;
+}
+
+h2 {
+    font-weight: 400
+}
+
+.logo {
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.intro-paragraphs {
+    font-weight: 300;
+    font-size: 1.35em;
+}
+
+
+.work-paragraphs {
+    font-weight: 300;
+}
+
+body {
+    animation-name: lsd;
+    animation-duration: 60s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes lsd {
+    0% { background: #81d4fa }
+    33% { background: #ffd54f }
+    66% { background: #4db6ac }
+    100% { background: #ef9a9a }    
+}

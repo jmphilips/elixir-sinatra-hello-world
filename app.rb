@@ -3,11 +3,7 @@ require 'sinatra'
 
 class HelloWorldApp < Sinatra::Base
     get '/' do
-        "Hello, world!"
+        File.read(File.join('public', 'index.html'))
     end
-
-    get '/:name' do |n|
-        "Hello #{n}"
-    end
-
+    
 end
